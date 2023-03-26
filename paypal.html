@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Paypal</title>
+</head>
+<br><br>
+<body>
+    <hr width="1500">
+    <div style="text-align: center;">
+    <h1>Paypal Payment</h1>
+    <p>What are you interested in buying?</p>
+    </div> 
+    <form>
+        <label for="name">My Product<span style="color:red;">*</span></label>
+        <input type="checkbox" name="New Product 1"> New Product 1 $5.00
+        <input type="checkbox" name="New Product 2"> New Product 2 $10.00
+        <input type="checkbox" name="New Product 3"> New Product 3 $20.00<br><br>
+    
+        <label for="name">Full Name<span style="color:red;">*</span></label>
+        <input type="text" id="Firstname" name="fname" placeholder="First name">
+        <input type="text" id="lastname" name="lname" placeholder="Last name">
+      
+        <label for="email">Email<span style="color:red;">*</span></label>
+        <input type="email" id="email" name="email" placeholder="ex:Name@gmail.com">
+      
+        <label for="address">Address<span style="color:red;">*</span></label> 
+        <input type="text" id="address" name="address" placeholder="Street Address Line">
+        <label for="address">Address<span style="color:red;">*</span></label> 
+        <input type="text" id="address" name="address" placeholder="Street Address Line 2">
+
+        <label for="city">City<span style="color:red;">*</span></label> 
+        <input type="text" id="city" name="city">
+        
+        <label for="pcode">Postal Code<span style="color:red;">*</span></label> 
+        <input type="text" id="pcode" name="pcode">
+
+        <label for="state">State / Province<span style="color:red;">*</span></label> 
+        <input type="text" id="state" name="state">
+       
+        <label for="state">Country<span style="color:red;">*</span></label> 
+        <input list="countries" name="country" placeholder="Please Select" >
+            <datalist id="countries">
+            <option value="Scotland">
+            <option value="Nigeria">
+            <option value="Paris">
+            <option value="Canada">
+            <option value="India">
+            </datalist>
+      </form>
+    <div style="text-align: center;">
+        <a href="signup.html"><h1><strong>Go to payment page</p></strong></h1></a><br>
+
+      </div>
+</body>
+</html>
